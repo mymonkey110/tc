@@ -11,7 +11,7 @@
 
 现对TC具体使用方法做详细说明。
 
-  Usage:tc -s <SERVER_IP> -p <SERVER_PORT> [-w <wait time>] [-r <repeat times>] [-u] [-c] [-t]
+    Usage:tc -s <SERVER_IP> -p <SERVER_PORT> [-w <wait time>] [-r <repeat times>] [-u] [-c] [-t]
 -
 * -s 服务器端IP地址
 * -p 连接端口
@@ -29,7 +29,7 @@
 
 新增服务器监听模式，用于测试客户端程序。
 
-   Usage:tc [-i <LISTEN_IP>] -p <LISTEN_PORT> -l
+     Usage:tc [-i <LISTEN_IP>] -p <LISTEN_PORT> -l
 
 #### TC不适用一下情况：
 * 文件传输测试
